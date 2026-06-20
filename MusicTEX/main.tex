@@ -1,0 +1,36 @@
+% !TeX program = lualatex
+
+\documentclass[a4paper,12pt]{book}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{fontspec}
+\usepackage{lilyglyphs}
+\usepackage[debug]{lyluatex}
+
+\begin{document}
+	
+\setlength{\parskip}{1em}
+
+\author{Mr. Cutchen}
+\title{Guitar 1: An Introduction to the Guitar}
+\date{2026 - 2027 School Year}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./TeX_files/chapter01}
+\include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter06}
+
+
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}

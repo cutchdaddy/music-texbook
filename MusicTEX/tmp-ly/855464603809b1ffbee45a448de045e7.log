@@ -1,0 +1,19 @@
+Changing working directory to: `tmp-ly'
+Processing `/home/dan/Documents/MusicTEX/tmp-ly/855464603809b1ffbee45a448de045e7.ly'
+Parsing...
+/home/dan/Documents/MusicTEX/tmp-ly/855464603809b1ffbee45a448de045e7.ly:33:9: error: not a note name: treblenotes
+	
+        treblenotes = \relative e' {e_"E  F  G  A  B  C  D  E  F" f g a b c d e f}
+/home/dan/Documents/MusicTEX/tmp-ly/855464603809b1ffbee45a448de045e7.ly:33:21: error: syntax error, unexpected '='
+	treblenotes 
+                    = \relative e' {e_"E  F  G  A  B  C  D  E  F" f g a b c d e f}
+/home/dan/Documents/MusicTEX/tmp-ly/855464603809b1ffbee45a448de045e7.ly:36:25: error: unknown escaped string: `\treblenotes'
+			
+                        \treblenotes
+/home/dan/Documents/MusicTEX/tmp-ly/855464603809b1ffbee45a448de045e7.ly:36:25: error: string outside of text script or \lyricmode
+			
+                        \treblenotes
+/home/dan/Documents/MusicTEX/tmp-ly/855464603809b1ffbee45a448de045e7.ly:31:1: error: errors found, ignoring music expression
+
+{	\time 9/4
+fatal error: failed files: "tmp-ly/855464603809b1ffbee45a448de045e7.ly"

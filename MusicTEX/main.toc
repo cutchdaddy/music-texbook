@@ -1,0 +1,45 @@
+\contentsline {chapter}{\numberline {1}Welcome}{1}{}%
+\contentsline {section}{\numberline {1.1}From the teacher's desk}{1}{}%
+\contentsline {section}{\numberline {1.2}Acknowledgments}{1}{}%
+\contentsline {section}{\numberline {1.3}What to expect}{1}{}%
+\contentsline {section}{\numberline {1.4}What you need (supplies)}{1}{}%
+\contentsline {section}{\numberline {1.5}How to use this book}{2}{}%
+\contentsline {section}{\numberline {1.6}Instrument care and precautions}{2}{}%
+\contentsline {chapter}{\numberline {2}How to Tune}{3}{}%
+\contentsline {section}{\numberline {2.1}What exactly is tuning?}{3}{}%
+\contentsline {section}{\numberline {2.2}Why do I need to tune?}{3}{}%
+\contentsline {section}{\numberline {2.3}Proper tuning}{4}{}%
+\contentsline {subsection}{\numberline {2.3.1}The tuning keys}{4}{}%
+\contentsline {subsection}{\numberline {2.3.2}Tight vs. loose and sharp vs. flat}{4}{}%
+\contentsline {subsection}{\numberline {2.3.3}How do I know which direction to turn?}{4}{}%
+\contentsline {subsection}{\numberline {2.3.4}What is my tuner telling me?}{6}{}%
+\contentsline {section}{\numberline {2.4}How do I tune my strings?}{6}{}%
+\contentsline {chapter}{\numberline {3}All About Posture}{7}{}%
+\contentsline {section}{\numberline {3.1}Seated posture - getting the body set}{7}{}%
+\contentsline {section}{\numberline {3.2}Adding the footstool}{8}{}%
+\contentsline {section}{\numberline {3.3}The four main contact points}{8}{}%
+\contentsline {section}{\numberline {3.4}A word about tension and relaxation}{9}{}%
+\contentsline {section}{\numberline {3.5}Finding balance in every action}{9}{}%
+\contentsline {chapter}{\numberline {4}The Right Hand}{11}{}%
+\contentsline {section}{\numberline {4.1}The job of the right hand}{11}{}%
+\contentsline {section}{\numberline {4.2}Right hand ``posture" and mechanics}{11}{}%
+\contentsline {section}{\numberline {4.3}Push towards the wood}{12}{}%
+\contentsline {section}{\numberline {4.4}Right hand finger letters}{13}{}%
+\contentsline {section}{\numberline {4.5}The great nail debate}{14}{}%
+\contentsline {section}{\numberline {4.6}Open strings of the guitar}{14}{}%
+\contentsline {section}{\numberline {4.7}The first open string warmup}{15}{}%
+\contentsline {chapter}{\numberline {5}The Left Hand}{19}{}%
+\contentsline {section}{\numberline {5.1}The job of the left hand}{19}{}%
+\contentsline {section}{\numberline {5.2}Left hand posture and mechanics}{19}{}%
+\contentsline {section}{\numberline {5.3}``Corner" of the fret box}{20}{}%
+\contentsline {section}{\numberline {5.4}The right amount of force}{20}{}%
+\contentsline {section}{\numberline {5.5}The correct finger shape}{21}{}%
+\contentsline {section}{\numberline {5.6}Left hand finger numbers}{21}{}%
+\contentsline {section}{\numberline {5.7}First two exercises: Finger Drops and Spider Fingers}{21}{}%
+\contentsline {section}{\numberline {5.8}Learning left hand note names}{21}{}%
+\contentsline {chapter}{\numberline {6}Learning to Read Sheet Music}{23}{}%
+\contentsline {section}{\numberline {6.1}Staff, Clef, and Pitches}{23}{}%
+\contentsline {section}{\numberline {6.2}Adding rhythmic values}{25}{}%
+\contentsline {section}{\numberline {6.3}Measures and Time Signature}{26}{}%
+\contentsline {section}{\numberline {6.4}Rests - Balancing sound with silence}{28}{}%
+\contentsline {section}{\numberline {6.5}Putting pitch and rhythm together}{29}{}%

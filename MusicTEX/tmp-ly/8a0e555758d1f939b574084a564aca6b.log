@@ -1,0 +1,16 @@
+Changing working directory to: `tmp-ly'
+Processing `/home/dan/Documents/MusicTEX/tmp-ly/8a0e555758d1f939b574084a564aca6b.ly'
+Parsing...
+/home/dan/Documents/MusicTEX/tmp-ly/8a0e555758d1f939b574084a564aca6b.ly:31:9: error: syntax error, unexpected \remove
+{	
+        \remove "Time_signature_engraver"
+/home/dan/Documents/MusicTEX/tmp-ly/8a0e555758d1f939b574084a564aca6b.ly:31:41: error: string outside of text script or \lyricmode
+{	\remove "Time_signature_engraver
+                                        "
+/home/dan/Documents/MusicTEX/tmp-ly/8a0e555758d1f939b574084a564aca6b.ly:32:30: error: string outside of text script or \lyricmode
+	\remove "Bar_engraver
+                             "
+/home/dan/Documents/MusicTEX/tmp-ly/8a0e555758d1f939b574084a564aca6b.ly:31:1: error: errors found, ignoring music expression
+
+{	\remove "Time_signature_engraver"
+fatal error: failed files: "tmp-ly/8a0e555758d1f939b574084a564aca6b.ly"

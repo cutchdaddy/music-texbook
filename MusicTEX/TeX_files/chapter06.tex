@@ -1,0 +1,225 @@
+\chapter{Learning to Read Sheet Music}
+
+In this chapter, we will begin to navigate the wide world of reading standard sheet music notation, starting with the biggest ideas of musical pitch and rhythmic values.
+
+\section{Staff, Clef, and Pitches}
+
+Our discussion of written sheet music will start with the first major category of information - \textit{pitches}. A musical pitch is simply one of many distinct sounds that an instrument can make. Think of a piano, which has 88 different keys. Each key produces a different pitch. On the guitar, each fret and string combination produces a distinct pitch, with some overlap between certain combinations.
+
+Pitches are indicated in sheet music by the appearance of oval-shaped symbols that are placed on something called the \textit{staff}. The staff is a set of five lines and four spaces that is used to hold musical pitches. How does this work? The staff works like a ladder or staircase. The higher on the staff a pitch appears, the higher the sound it represents. Conversely, the lower on the staff a pitch appears, the lower the sound it represents. 
+
+%Add image of simple staff with noteheads on each of the five lines and four spaces, ordered from lowest to highest
+
+Simply trying to remember the different pitches by their appearance alone would be very difficult, so we use letter names to help us remember each pitch. Before we can introduce the letter names, however, we must talk about a special musical symbol called the \textit{clef}. 
+
+%Add image of treble, alto, and bass clefs
+\begin{figure}[h]
+	\begin{center}
+		\huge
+		\clefG \hspace{5mm} \clefF \hspace{5mm} \clefC
+	\end{center}
+	\caption{\textit{The three most common clefs: treble, bass, and alto}}
+\end{figure}
+
+Clefs are symbols that appear at the beginning of every line in a piece of sheet music. The clef shows you how high or low the notes in the song will sound. The three mostly commonly used clefs (pictured above) are called the treble clef, the alto clef, and the bass clef. Thankfully, in guitar class, we are only responsible for learning the letters of the treble clef. 
+
+%Add image of first nine treble clef notes with their letters labeled
+\begin{figure}[h]
+	\begin{center}
+		{\large
+			\lilypondfile[]{treblenotes.ly}
+		}
+	\end{center} 
+	\caption{\textit{The first nine letters of the treble clef}}
+\end{figure} 
+	
+\vspace{3mm}
+
+The first nine letters of the treble clef from lowest to highest are: E F G A B C D E F. You hopefully recognize these letters as coming from our written alphabet. Although the full alphabet has 26 letters, we only need to use the first seven in music: A B C D E F G. Notice that the treble clef starts with E F G, then goes back to A and continues with B C D E F. 
+
+One trick to memorize the treble clef letters faster is to separate them into two groups: line letters and space letters. The line letters, E G B D F, do not spell a word, but instead we can use a mnemonic - a sentence where each word starts with one of our five letters in order: 
+
+\begin{center} \fbox{Every Good Burger Deserves Fries} \end{center}
+
+The space letters, F A C E, conveniently spell the word ``face". You can also remember that "face rhymes with space" to further solidify the information in your memory.
+
+\section {Adding rhythmic values}
+
+Unfortunately, knowing how to read pitches alone isn't enough to be able to fully understand sheet music. You must also master the second major component of written music - the system of rhythmic values. In general, rhythm is the part of music that tells you \textbf{when} to play something. Rhythms are understood as having duration, which just means that each different rhythm takes a different amount of time to play. 
+
+%Add image of five major rhythm types: whole, half, quarter, eighth, and sixteenth
+
+We are used to thinking of time as being measured in hours, minutes, and/or seconds, but in music, we use a special unit of measurement called the ``beat" to keep track of time. All music is divided into evenly spaced \textit{beats} that help us know when to play each rhythm. Also, we use beats to talk about the \textit{tempo} or speed of each song, which is measured in beats per minute (BPM). 
+
+There are five commonly encountered rhythmic values in sheet music, each one taking a different number of beats to play. 
+
+\begin{table}[h]
+	\large
+	\centering
+	\caption{Five Common Rhythmic Values}
+	\label{tab:booktabs_example}
+	\begin{tabular}{lcr}
+		\toprule
+		\textbf{Rhythm Name} & \textbf{Symbol} & \textbf{Beat Value} \\ 
+		\midrule
+		Whole Note       & \wholeNote       & 4 beats         \\
+		Half Note        & \halfNote        & 2 beats         \\
+		Quarter Note     & \quarterNote     & 1 beat          \\
+		Eighth Note		 & \eighthNote	    & 0.5 beats		  \\
+		Sixteenth Note   & \sixteenthNote   & 0.25 beats      \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+For now, let's skip the names of each rhythm and take a closer look at each symbol. The whole note (\wholeNote) is the only the only rhythm that does not have a stem (a vertical line) attached to its notehead (the oval part). A whole note is simply an oval with a white center and dark edges. At first glance, the half note (\halfNote) looks like a whole note with a stem attached, but the notehead shape is slightly different - rotated slightly with less dark edges. The quarter note (\quarterNote) is simply a half note with the notehead completed filled in. An eighth note (\eighthNote) is like a quarter note with a flag (hanging part) attached to the top of the stem. Lastly, the sixteenth note (\sixteenthNote) is like an eighth note with a second flag attached below the first.
+
+Next, let's talk about the beat value column. Each rhythm has a different duration, which is represented by a number of beats. The first three rhythm types are fairly straightforward - a whole note lasts for 4 beats, a half note lasts for 2 beats, and a quarter note lasts for 1 beat. Eighth and sixteenth notes are special in that they divide each beat into smaller parts. This will be explained in greater detail in a later chapter. For now, we can focus on understanding how whole, half, and quarter notes work.
+
+Lastly, we have the rhythm name column to discuss. Notice how the adjective in each rhythm name - whole, half, quarter, eighth, sixteenth - sounds like a fraction ($\frac{1}{1}$, $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, and $\frac{1}{16}$). In order to best understand what these fractions represent, we must introduce two more musical concepts - measures and time signature.
+
+\section{Measures and Time Signature}
+
+Take a look at the following two sentences. Which is easier to read and understand quickly?
+
+\begin{center}
+	This is a sentence written with spaces between each word.
+	
+	Thisisasentencewrittenwithoutspacesbetweeneachword.
+\end{center}
+
+Obviously, the first sentence is much easier to parse quickly than the second. Spaces help make text easier to read. Measures are somewhat like ``spaces" in our music. They divide our sheet music into boxes that each contain a certain number of beats. Here is a short melody written twice, both with and without measures. 
+
+\begin{center}
+	{\large
+	
+	\lilypondfile{twinkle_excerpt.ly}
+	
+	\vspace{3mm}
+	
+	\noindent\hrulefill
+	
+	\lilypondfile{twinkle_excerpt_nomeasures.ly}
+	}
+\end{center}
+
+In the first example, we can easily tell that the melody has eight measures. Measures allow us to easily start in different places of a piece so that we can practice specific sections without having to always start from the very beginning. We can think "start at measure 5" which is much easier to understand quickly than "start at the 15th note". 
+
+However, in order to have measures, we must also introduce a time signature. Notice in the first example the two numbers that appear directly to the right of the treble clef: 4/4. This is our time signature. A time signature will always consist of two numbers, one on top and one on bottom. 
+
+\begin{figure}[h]
+	\begin{center}
+		\huge {
+		${2 \atop 4} \hspace{5mm} {3 \atop 4} \hspace{5mm} {4 \atop 4} \hspace{5mm} {6 \atop 8} \hspace{5mm} {9 \atop 8} \hspace{5mm} {12 \atop 8}$
+		}
+	\end{center}
+	\caption{\textit{The six most commonly used time signatures}}
+\end{figure}
+
+Each of the two numbers tells you something different about the music. The top number is straightforward and tells you how many beats are found in each measure. The bottom number tells you which rhythm type represents a single beat. For now, all of your music will have a time signature with 4 on the bottom. This means that a quarter note (1/4) represents one beat.
+
+Finally, we can return to the names of our rhythm types from earlier: whole, half, quarter, eighth, and sixteenth. These names come from music written in 4/4 time, which is by far the most commonly used time signature. 
+
+\begin{figure}[h]
+	\begin{center}
+		\lilypondfile{five_basic_rhythms.ly}
+	\end{center}
+	\caption{\textit{Using each of the five basic rhythms to fill a measure of 4/4 time}}
+\end{figure}
+
+Now we can see exactly where each of the rhythm names comes from:
+
+\begin{itemize}
+	\item A whole note lasts for a whole measure of 4/4 time (4 beats)
+	\item A half note lasts for half of a measure of 4/4 (2 beats)
+	\item A quarter note lasts for a quarter of a measure of 4/4 (1 beat)
+	\item An eighth note lasts for an eighth of a measure of 4/4 ($\frac{1}{2}$ or 0.5 beats)
+	\item A sixteenth note lasts for a sixteenth of a measure of 4/4 ($\frac{1}{4}$ or 0.25 beats)
+\end{itemize}
+
+Keep in mind that these rhythm names do NOT change in different time signatures. Look at the following example of the different rhythm types written in 2/4 time:
+
+\begin{figure}[h]
+	\begin{center}
+		\lilypondfile{five_basic_rhythms_2_4}
+	\end{center}
+	\caption{\textit{Four basic rhythms in 2/4 time}}
+\end{figure}
+
+First, notice that the whole note is absent this time, because it has too many beats to fit into a measure of 2/4 time. This time, the half note takes up the whole measure, but it is still called a half note. The quarter note divides the measure in half, but is still called a quarter note. The same idea applies to eighth and sixteenth notes as well. 
+
+\section{Rests - Balancing sound with silence}
+
+Up to this point, we have explored musical pitches as well as rhythmic values, both of which represent how sound is created in music. However, in almost all examples of music you will find a combination of both sound and silence. Silences in music are known as \textit{rests}. Thankfully, rests follow the exact same convention as the rhythm values we just learned.
+
+\newpage
+
+\begin{table}[h]
+	\large
+	\centering
+	\caption{Five Common Rest Values}
+	\label{tab:booktabs_example}
+	\begin{tabular}{lcr}
+		\toprule
+		\textbf{Rest Name} & \textbf{Symbol} & \textbf{Beat Value} \\ 
+		\midrule
+		Whole Rest       & \wholeNoteRest       & 4 beats         \\
+		Half Rest        & \halfNoteRest       & 2 beats         \\
+		Quarter Rest     & \crotchetRest     & 1 beat          \\
+		Eighth Rest		 & \quaverRest	    & 0.5 beats		  \\
+		Sixteenth Rest   & \semiquaverRest   & 0.25 beats      \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Like earlier, let's start by looking closely at the shape of each rest symbol. The whole and half rest appear to be the same symbol that looks very similar to a top hat. However, the whole rest looks placed upside down, while the half rest looks to be right side up. The quarter rest is a very unique looking squiggle that looks like the letter Z with the letter C attached to the bottom. The eighth and sixteenth rests are clearly similar, with the eighth rest looking like a club with one head, and the sixteenth rest like a double-headed club. 
+
+Like rhythms, the names of each rest derive from how they function in 4/4 time. From this point on, we should consider both rhythm and rest values to be of equal importance. It is best to learn the rhythm values and their symbols alongside the rest values and their symbols.
+
+\begin{table}[h]
+	\large
+	\centering
+	\caption{Five Common Note and Rest Values}
+	\label{tab:booktabs_example}
+	\begin{tabular}{lcr}
+		\toprule
+		\textbf{Rhythm/Rest Name} & \textbf{Symbols} & \textbf{Beat Value} \\ 
+		\midrule
+		Whole Note/Rest       & \wholeNote / \wholeNoteRest        & 4 beats         \\
+		Half Note/Rest        & \halfNote / \halfNoteRest          & 2 beats         \\
+		Quarter Note/Rest     & \quarterNote / \crotchetRest       & 1 beat          \\
+		Eighth Note/Rest	  & \eighthNote / \quaverRest	       & 0.5 beats		 \\
+		Sixteenth Note/Rest   & \sixteenthNote / \semiquaverRest   & 0.25 beats      \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\section{Putting pitch and rhythm together}
+
+Now that we have spent time addressing the two main components of written sheet music - pitch and rhythm - we are ready to start combining both ideas together. Take a look at the following musical example: 
+
+\begin{figure}[h]
+	\begin{center}
+		\lilypondfile{pitch_and_rhythm.ly}
+	\end{center}
+\end{figure}
+
+Make sure that you are able to identify all of the following pieces of information present in the music above:
+
+\begin{itemize}
+	\item Treble clef
+	\item Time signature
+	\item Whole note
+	\item Whole rest
+	\item Half note
+	\item Half rest
+	\item Quarter note
+	\item Quarter rest
+	\item Eighth note
+	\item Eighth rest
+	\item The name of each note (note letter)
+	\item The number of each measure
+\end{itemize}
+	
+Although this music would not be very exciting to play, it shows us a lot of the important information we need to understand when reading sheet music.
+
+

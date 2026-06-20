@@ -1,0 +1,19 @@
+Changing working directory to: `tmp-ly'
+Processing `/home/dan/Documents/MusicTEX/tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly'
+Parsing...
+/home/dan/Documents/MusicTEX/tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly:33:9: error: not a note name: scale
+	
+        scale = \relative e' {e f g a b c d e f}
+/home/dan/Documents/MusicTEX/tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly:33:15: error: syntax error, unexpected '='
+	scale 
+              = \relative e' {e f g a b c d e f}
+/home/dan/Documents/MusicTEX/tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly:36:25: error: unknown escaped string: `\scale'
+			
+                        \scale
+/home/dan/Documents/MusicTEX/tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly:36:25: error: string outside of text script or \lyricmode
+			
+                        \scale
+/home/dan/Documents/MusicTEX/tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly:31:1: error: errors found, ignoring music expression
+
+{	\time 9/4
+fatal error: failed files: "tmp-ly/815f93841e40c24de05ce44af0bbf92f.ly"
